@@ -49,6 +49,8 @@ def _get_args():
     args.add_argument('--model', required=True)
     args.add_argument('--name')
     args.add_argument('--loglevel', default='INFO')
+    args.add_argument('--x', default='input')
+    args.add_argument('--y', default='target')
     return args.parse_args()
 
 
